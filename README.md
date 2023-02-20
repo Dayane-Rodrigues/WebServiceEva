@@ -1,6 +1,6 @@
 # WebServiceEva
 
-Extensões necessárias para o código: 
+Módulos utilizados na aplicação: 
 flask;
 flask-sqlalchemy;
 flask-login.
