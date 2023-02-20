@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}Serviços{% endblock %}
+
+{% block content %}
+{% include "includes/modal.html" %}
+<div align="center">
+    <h3 align="center" >Serviços Disponíveis</h3>
+    <p>
+    <nav class="navbar navbar-light bg-light">
+        <form class="form-inline">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Pesquisar</button>
+        </form>
+    </nav>
+    </p>
+    <br>
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="https://ictq.com.br/images/Redes_de_farm%C3%A1cias_registram_retra%C3%A7%C3%A3o_de_22_em_abril.jpg" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">
+          <button type="button" class="btn btn-outline btn-lg" data-toggle="modal" data-target="#exampleModal">Controle de Estoque de Farmácia</button>
+        </p>
+      </div>
+    </div>
+    <br>
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="https://www.infomoney.com.br/wp-content/uploads/2020/10/GettyImages-1194709125-1.jpg?resize=916%2C515&quality=50&strip=all" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">
+          <button type="button" class="btn btn-outline btn-lg" data-toggle="modal" data-target="#exampleModal">Sistema de Caixa Autônomo</button>
+        </p>
+      </div>
+    </div>
+    <br>
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="https://i0.wp.com/cvsp.com.br/wp-content/uploads/2018/05/emprega-s%C3%A3o-paulo-Almoxarifado-Obras.jpg?fit=600%2C400&ssl=1" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">
+          <button type="button" class="btn btn-outline btn-lg" data-toggle="modal" data-target="#exampleModal">Controle de Materias em Construção</button>
+        </p>
+      </div>
+    </div>
+    <br>
+    {% for servico in sistema.servicos_disponiveis %}
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22286%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20286%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1866a95f229%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A14pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1866a95f229%22%3E%3Crect%20width%3D%22286%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2299.12312316894531%22%20y%3D%2296.3%22%3EImage%20cap%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
+      <div class="card-body">
+        <p class="card-text">
+          <button type="button" class="btn btn-outline btn-lg" data-toggle="modal" data-target="#exampleModal">{{ servico.nome }}</button>
+        </p>
+      </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Perfil{% endblock %}
+
+{% block content %}
+<br>
+<h3 align="center" >{{ user.nome }}</h3>
+<p align="center">{{ user.cidade }}, {{ user.estado }}</p>
+</br>
+
+<p>EMAIL: {{ user.email }}</p>
+<p>NICHO: {{ user.nicho }}</p>
+<p>CNPJ: {{ user.cnpj }}</p>
+<p>TELEFONE: {{ user.telefone }}</p>
+<p>ENDEREÇO: {{ user.endereco }}</p>
+
+{% endblock %}

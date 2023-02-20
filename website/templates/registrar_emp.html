@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}Registrar{% endblock %}
+
+{% block content %}
+<br>
+<h3 align="center" >Registrar</h3>
+<br></br>
+<form method="POST">
+    <div class="form-row">
+      <div class="form-group col-md-5">
+        <label for="cnpj">CNPJ</label>
+        <input type="text" class="form-control" id="cnpj" placeholder="00.000.000/0000-00">
+      </div>
+        <div class="form-group col-md-4">
+          <label for="telefone">Telefone</label>
+          <input type="text" class="form-control" id="telefone" placeholder="(00) 0000-0000">
+        </div>
+        <div class="form-group col-md-3">
+            <label for="nicho">Nicho</label>
+            <select id="nicho" class="form-control">
+              <option selected>Selecione...</option>
+              <option>Farmacêutica</option>
+              <option>Construção</option>
+              <option>Vendas</option>
+              <option>...</option>
+            </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="endereco">Address 2</label>
+      <input type="text" class="form-control" id="endereco" placeholder="Rua, Qd, Lote">
+    </div>
+    <div class="form-row">
+      <div class="form-group col-md-6">
+        <label for="cidade">Cidade</label>
+        <input type="text" class="form-control" id="cidade">
+      </div>
+      <div class="form-group col-md-4">
+        <label for="estado">Estado</label>
+        <select id="estado" class="form-control">
+          <option selected>Selecione...</option>
+          <option>GO</option>
+          <option>SP</option>
+          <option>...</option>
+        </select>
+      </div>
+      <div class="form-group col-md-2">
+        <label for="cep">Cep</label>
+        <input type="text" class="form-control" id="cep">
+      </div>
+    </div>
+    <button type="submit" class="btn btn-secondary">Registrar</button>
+
+  </form>
+{% endblock %}

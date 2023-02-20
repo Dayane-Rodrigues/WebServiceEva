@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Adicionar Serviço{% endblock %}
+
+{% block content %}
+
+<form method="POST">
+  <h3 align="center" >Adicionar Serviços</h3>
+  <br>
+  <div class="form-group">
+    <label for="nome_servico">Nome do Serviço</label>
+    <input type="text"
+    class="form-control"
+         id="nome_servico"
+         name="nome_servico"
+         placeholder="Nome"
+    />
+    <label for="descricao">Descrição</label>
+    <input type="text"
+    class="form-control"
+         id="descricao"
+         name="descricao"
+         placeholder="Insira a descrição do seu serviço"
+    />
+    <label for="preco">Preço</label>
+    <input type="number"
+    class="form-control"
+         id="preco"
+         name="preco"
+         placeholder="Insira o valor do seu serviço"
+    />
+    <br>
+    <button type="submit" class="btn btn-outline-dark btn-lg">Adicionar</button>
+</form>
+
+{% endblock %}
