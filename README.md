@@ -1,5 +1,10 @@
 # WebServiceEva
 
+Extensões necessárias para o código: 
+flask;
+flask-sqlalchemy;
+flask-login.
+
 Para aplicação de Web Service da EVA, buscamos realizar adaptações do projeto, a fim de construir um produto usual e que ao mesmo tempo cumprisse com a essência da empresa. 
 Assim, entendemos que o melhor formato foi um site com os serviços de inteligência artificial oferecidos pela EVA, que permite acesso e cadastro aos clientes e aos funcionários. 
 Abaixo, mostraremos com mais detalhes as páginas.
