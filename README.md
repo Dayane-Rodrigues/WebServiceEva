@@ -6,7 +6,7 @@ flask-sqlalchemy;
 flask-login.
 
 Para aplicação de Web Service da EVA, buscamos realizar adaptações do projeto, a fim de construir um produto usual e que ao mesmo tempo cumprisse com a essência da empresa. 
-Assim, entendemos que o melhor formato foi um site com os serviços de inteligência artificial oferecidos pela EVA, que permite acesso e cadastro aos clientes e aos funcionários. 
+Assim, entendemos que o melhor formato foi um site com os serviços de inteligência artificial oferecidos pela EVA, que permitesse acesso e cadastro aos clientes e aos funcionários. 
 Abaixo, mostraremos com mais detalhes as páginas.
 
 Páginas inicial com opções de login, registro e navegação (sem necessidade de cadastro).
@@ -16,7 +16,7 @@ Se escolhida opção "navegar", usuário acesserá diretamente a aba de servi�
 ![image](https://user-images.githubusercontent.com/107937586/220215062-5c047bb1-cd87-4dcf-a6a3-c6fc51a81b0d.png)
 ![image](https://user-images.githubusercontent.com/107937586/220210069-fa74ff40-6e31-44fa-9f80-f4008321011f.png)
 
-Quando escolhida a opção anterior "registrar", abre-se a página Sign Up, para cadastro de e-mail e senha. Há também duas opções de usuários, são eles os clientes (empresas interessadas em serviços) e os funcionários, que terão acesso para edições no site.
+Quando escolhida a opção anterior "registrar", abre-se a página Sign Up, para cadastro de e-mail e senha. Há também duas opções de usuários, são eles as empresas (empresas interessadas em serviços) e os funcionários, que terão acesso para edições no site.
 ![image](https://user-images.githubusercontent.com/107937586/220208426-cc235371-89ec-44d0-b740-f944acaf4242.png)
 
 Ao escolher o acesso como funcionário, o usuário é redirecionado a um formulário para cadastro de dados pessoas.
@@ -41,14 +41,14 @@ Cadastro dos dados pessoais da empresa:
 Tela de inicial da empresa: 
 ![image](https://user-images.githubusercontent.com/107937586/220210139-5767c7f9-af7d-4e09-8037-8738a00087c6.png)
 
-Selecionada os serviços: 
+Selecionados os serviços: 
 ![image](https://user-images.githubusercontent.com/107937586/220210027-8c1753fe-3d53-455a-a7bf-6ff8be3414fc.png)
 ![image](https://user-images.githubusercontent.com/107937586/220210069-fa74ff40-6e31-44fa-9f80-f4008321011f.png)
 
-Selecionada as parcerias (com uma breve descrição): 
+Selecionadas as parcerias (com uma breve descrição): 
 ![image](https://user-images.githubusercontent.com/107937586/220210204-f12789b5-22c0-4395-9295-571d772b224e.png)
 
-Selecionada o perfil: 
+Selecionado o perfil: 
 ![image](https://user-images.githubusercontent.com/107937586/220210235-8965cb2f-1712-4a97-8166-bd631dade842.png)
 
 
