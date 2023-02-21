@@ -25,7 +25,7 @@ Ao escolher o acesso como funcionário, o usuário é redirecionado a um formul�
 Tela inicial do funcionário:  
 ![image](https://user-images.githubusercontent.com/107937586/220208830-922229e7-c46f-4ab9-a453-c259089bff27.png)
 
-Pagina de visualização do perfil do funcionário
+Pagina de visualização do perfil do funcionário:
 ![image](https://user-images.githubusercontent.com/107937586/220208863-fbab4de3-1e2d-4a31-917f-9f26a81ad7c8.png)
 
 Selecionada a opção de editar serviços:
